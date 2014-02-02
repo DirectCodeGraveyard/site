@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/todc-bootstrap.min.css" rel="stylesheet">
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/chrome/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://www.google.com/images/icons/product/chrome-32.png" rel="icon" type="image/ico">
+
+    <title>Chrome Versions</title>
+</head>
+
+<body>
+
+    <header id="navigation" class="navbar navbar-masthead navbar-default navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand"><i class="fa fa-star"></i> kaendfinger</a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="/projects/"><i class="fa fa-folder"></i> Projects</a></li>
+                    <li><a href="/bot/"><i class="fa fa-comment"></i> IRC Bot</a></li>
+                    <li class="active"><a href="/chrome/"><i class="fa fa-google"></i> Chrome</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-container">
+
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-left">
+                <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <ul class="nav">
+                        <li><a href="/chrome/">Chrome Home</a></li>
+                        <li class="active"><a href="/chrome/versions/">Chrome Versions</a></li>
+                    </ul>
+                </div>
+                <div id="infoContain" class="col-xs-12 col-sm-9">
+                    <table class="table table-bordered table-hover" border="1" id="versionsTable">
+                        <thead>
+                            <th>Platform</th>
+                            <th>Channel</th>
+                            <th>Chrome Version</th>
+                            <th>V8 Version</th>
+                            <th>Release Date</th>
+                        </thead>
+                        <tbody id="versionInfo"></tbody>
+                    </table>
+                    <div id="errorMsg" class="alert alert-danger">
+                        <h2 class="center-force">Unable to load Chrome Versions!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.hotkeys.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootbox.min.js"></script>
+    <script src="/chrome/versions/versions.js"></script>
+</body>
+
+</html>[
