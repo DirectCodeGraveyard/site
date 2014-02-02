@@ -1,5 +1,6 @@
 body {
    padding-top: 55px;
+   padding-bottom: 45px;
 }
 
 .page-header {
@@ -12,13 +13,6 @@ body {
 
 .stability {
    text-align: center;
-}
-
-footer {
-   height: 36px;
-   bottom: 0;
-   position: fixed;
-   width: 100%;
 }
 
 .learn-more-alert {
