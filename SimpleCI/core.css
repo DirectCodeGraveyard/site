@@ -15,11 +15,10 @@ body {
 }
 
 footer {
-   height: 30px;
+   height: 36px;
    bottom: 0;
    position: fixed;
-   width: 99.5%;
-   left: 0.5%;
+   width: 100%;
 }
 
 .learn-more-alert {
