@@ -2,38 +2,63 @@
 <html lang="en">
 
 <head>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/todc-bootstrap.min.css" rel="stylesheet">
-    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/chrome/style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <link href="/css/todc-bootstrap.min.css" rel="stylesheet">
+   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="core.css" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>SimpleCI</title>
+   <title>SimpleCI</title>
 </head>
 
 <body>
 
-    <header id="navigation" class="navbar navbar-masthead navbar-default navbar-fixed-top" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="/" class="navbar-brand"><i class="fa fa-star"></i> SimpleCI</a>
-            </div>
-            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+   <header id="navigation" class="navbar navbar-inverse navbar-masthead navbar-default navbar-fixed-top" role="banner">
+      <div class="container">
+         <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a href="/SimpleCI/" class="navbar-brand"><i class="fa fa-star"></i> SimpleCI</a>
+         </div>
+         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="/SimpleCI/"><i class="fa fa-home"></i> Home</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+   <div class="container">
+      <div class="jumbotron">
+         <h1 class="page-header">SimpleCI</h1>
+
+         <p>A CI that provides a simple interface while still having all your favorite features!</p>
+
+         <button id="learn-more" class="btn btn-primary">Learn More</button>
+      </div>
+
+      <div id="stability" class="panel panel-default stability col-md-4">
+         <b class="stability-label">Complete</b>
+         <div class="progress progress-striped active stability-bar">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+               <span class="sr-only">40% Complete</span>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <footer>
+       <p><a class="btn btn-link" href="https://github.com/DirectMyFile/SimpleCI">GitHub</a></p>
+   </footer>
+
+   <script src="/js/jquery.min.js"></script>
+   <script src="/js/bootstrap.min.js"></script>
+   <script src="/js/bootbox.min.js"></script>
+   <script src="site.js"></script>
 </body>
 
 </html>

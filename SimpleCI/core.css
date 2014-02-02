@@ -1,0 +1,27 @@
+body {
+   padding-top: 55px;
+}
+
+.page-header {
+   text-align: center;
+}
+
+.jumbotron {
+   text-align: center;
+}
+
+.stability {
+   text-align: center;
+}
+
+footer {
+   height: 30px;
+   bottom: 0;
+   position: fixed;
+   width: 99.5%;
+   left: 0.5%;
+}
+
+.learn-more-alert {
+   text-align: center;
+}
