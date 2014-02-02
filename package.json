@@ -1,0 +1,32 @@
+{
+  "name": "DMFGH",
+  "version": "0.2.0",
+  "description": "DirectMyFile GitHub Site",
+  "private": true,
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DirectMyFile/directmyfile.github.io.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Site",
+    "Grunt"
+  ],
+  "author": "Kenneth Endfinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DirectMyFile/directmyfile.github.io/issues"
+  },
+  "homepage": "http://directmyfile.github.io/",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-csslint": "~0.2.0",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-jsbeautifier": "~0.2.6"
+  }
+}
