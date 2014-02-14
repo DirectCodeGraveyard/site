@@ -4,10 +4,23 @@ $("#learn-more").click(function() {
 
 var contribList = $("#contributor-list");
 
-[
-    "Kenneth Endfinger",
-    "samrg472",
-    "Logan Gorence"
-].forEach(function (contributor) {
-    contribList.append('<tr><td>' + contributor + '</td></tr>');
+var contributors = [{
+    name: "Kenneth Endfinger",
+    link: "https://github.com/kaendfinger/"
+}, {
+    name: "samrg472",
+    link: "https://github.com/samrg472/"
+}, {
+    name: "Logan Gorence",
+    link: "https://github.com/logangorence/"
+}];
+
+contributors.forEach(function(contributor) {
+    contribList.append('<tr><td><a href="' + contributor.link + '">' + contributor.name + '</a></td></tr>');
+});
+
+var contribData = $("#contributors").html();
+
+$("#show-contributors").click(function() {
+    bootbox.alert(contribData);
 });
