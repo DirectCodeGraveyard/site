@@ -3,6 +3,15 @@ var $list = $("#list");
 var developers = [
    {
       name: "Kenneth Endfinger"
+   },
+   {
+      name: "samrg472"
+   },
+   {
+      name: "TheMike"
+   },
+   {
+      name: "Logan"
    }
 ];
 
