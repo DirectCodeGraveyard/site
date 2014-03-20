@@ -1,11 +1,13 @@
 var cssFiles = [
     'SimpleCI/core.css',
-    'developers/core.css'
+    'developers/core.css',
+    'css/core.css'
 ];
 
 var jsFiles = [
     'SimpleCI/site.js',
-    'developers/site.js'
+    'developers/site.js',
+    'js/site.js'
 ];
 
 /* global module:false */
