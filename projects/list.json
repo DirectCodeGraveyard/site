@@ -9,7 +9,7 @@
    },
    {
       "name":"SimpleCI",
-      "url":"https://github.com/DirectMyFile/SimpleCI/",
+      "url":"https://github.com/DirectCode/DirectCode/",
       "icon":"refresh",
       "categories":[
          "Groovy",
@@ -21,7 +21,7 @@
       "url":"https://github.com/Minetweak/Minetweak/",
       "icon":"bolt",
       "categories":[
-         "Minecraft"
+         "Games"
       ]
    },
    {
