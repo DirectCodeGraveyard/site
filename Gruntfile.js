@@ -1,11 +1,11 @@
 var cssFiles = [
-    'SimpleCI/core.css',
+    'DirectBuild/core.css',
     'developers/core.css',
     'css/core.css'
 ];
 
 var jsFiles = [
-    'SimpleCI/site.js',
+    'DirectBuild/site.js',
     'developers/site.js',
     'js/site.js'
 ];
