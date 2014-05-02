@@ -1,7 +1,7 @@
 {
-  "name": "DMFGH",
+  "name": "DirectCodeGH",
   "version": "0.2.0",
-  "description": "DirectMyFile GitHub Site",
+  "description": "DirectCode GitHub Site",
   "private": true,
   "scripts": {
     "test": "grunt test"
@@ -22,11 +22,11 @@
   },
   "homepage": "http://directmyfile.github.io/",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.7.2",
-    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-csslint": "~0.2.0",
-    "load-grunt-tasks": "~0.2.1",
-    "grunt-jsbeautifier": "~0.2.6"
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-jsbeautifier": "~0.2.7"
   }
 }
