@@ -7,7 +7,7 @@ var developers = [{
 }, {
     name: "TheMike"
 }, {
-    name: "Logan"
+    name: "Logan Gorence"
 }];
 
 developers.forEach(function(developer) {
