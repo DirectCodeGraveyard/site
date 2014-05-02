@@ -53,6 +53,10 @@ body {
   -webkit-align-items: center;
 }
 
+.directcode-navbar nav:not(.icons) {
+  float: left;
+}
+
 .directcode-navbar nav.icons {
   justify-content: flex-end;
   text-align: right;
