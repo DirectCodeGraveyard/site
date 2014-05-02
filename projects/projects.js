@@ -19,9 +19,9 @@ $.getJSON("list.json", function(data) {
 
     writeAllProjects();
 
-    $("#categories > li").click(function() {
+    $("#categories").find("li").click(function() {
         var $this = $(this);
-        $("#categories > li").removeClass("active");
+        $("#categories").find("li").removeClass("active");
         $this.addClass("active");
         current = $($this.children()[0]).html();
         writeCategory(current);
