@@ -13,18 +13,31 @@ body {
   text-align: center;
 }
 
+.btn {
+  border: none !important;
+  transition: background-color 0.1s ease;
+  -webkit-transition: background-color 0.1s ease;
+}
+
+.btn:hover {
+  border: none !important;
+}
+
 /*
  * The implementation of .directcode-navbar, using Flexbox.
  * Currently needs: Better responsiveness.
  */
 
 .directcode-navbar {
-  background-color: rgb(50,50,50);
   position: fixed;
-  height: 95px;
+  height: 85px;
   width: 100%;
-  z-index: 9999px;
+  z-index: 9999;
   top: 0;
+}
+
+.directcode-navbar .container {
+  border-bottom: 1px solid rgb(230,230,230);
 }
 
 .directcode-navbar > *,
@@ -40,13 +53,23 @@ body {
   -webkit-align-items: center;
 }
 
+.directcode-navbar nav.icons {
+  justify-content: flex-end;
+  text-align: right;
+  float: right;
+}
+
 .directcode-navbar li {
   transition: background-color 0.2s ease;
   -webkit-transition: background-color 0.2s ease;
   display: inline-block;
-  border-radius: 5px;
-  margin-right: 12px;
-  padding: 10px;
+  border-radius: 6px;
+  margin-right: 9px;
+  padding: 10px 16px;
+}
+
+.directcode-navbar li:not(.title) {
+  margin-top: 4px;
 }
 
 .directcode-navbar li.title {
@@ -55,12 +78,12 @@ body {
   font-size: 1.3em;
 }
 
-.directcode-navbar li:not(.title):hover {
-  background-color: rgb(240,240,240);
+.directcode-navbar nav:not(.icons) li:not(.title):hover {
+  background-color: rgb(62,138,204);
 }
 
-.directcode-navbar li:not(.title):hover a {
-  color: rgb(50,50,50);
+.directcode-navbar nav:not(.icons) li:not(.title):hover a {
+  color: white;
 }
 
 .directcode-navbar li a {
@@ -68,9 +91,29 @@ body {
   -webkit-transition: color 0.2s ease;
   font-size: 1.2em;
   display: block;
-  color: rgb(240,240,240);
+}
+
+.directcode-navbar .icons a {
+  font-size: 1.7em;
 }
 
 .directcode-navbar li a:hover {
   text-decoration: none;
+}
+
+.directcode-navbar li:not(.title) a {
+  color: rgb(115,115,115);
+}
+
+.directcode-navbar nav.icons li a {
+  transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+}
+
+.directcode-navbar nav.icons li a:hover {
+  color: rgb(62,138,204);
+}
+
+.directcode-navbar li.title a {
+  color: rgb(50,50,50);
 }
