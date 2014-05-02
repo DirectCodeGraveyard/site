@@ -9,7 +9,7 @@
    },
    {
       "name":"DirectBuild",
-      "url":"https://github.com/DirectBuild/DirectBuild/
+      "url":"https://github.com/DirectBuild/DirectBuild/",
       "icon":"refresh",
       "categories":[
          "Groovy",
