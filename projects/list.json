@@ -8,8 +8,8 @@
       ]
    },
    {
-      "name":"SimpleCI",
-      "url":"https://github.com/DirectCode/DirectCode/",
+      "name":"DirectBuild",
+      "url":"https://github.com/DirectBuild/DirectBuild/
       "icon":"refresh",
       "categories":[
          "Groovy",
