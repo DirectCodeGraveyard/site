@@ -1,0 +1,8 @@
+{
+   "predef": [
+      "$",
+      "console",
+      "jQuery",
+      "bootbox"
+   ]
+}
