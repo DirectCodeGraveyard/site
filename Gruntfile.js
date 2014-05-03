@@ -6,7 +6,7 @@ var cssFiles = [
 
 var jsFiles = [
    'DirectBuild/site.js',
-   'developers/site.js',
+   'developers/developers.js',
    'js/site.js'
 ];
 
