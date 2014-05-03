@@ -1,7 +1,6 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  padding-top: 115px;
   padding-bottom: 45px;
 }
 
@@ -29,10 +28,8 @@ body {
  */
 
 .directcode-navbar {
-  position: fixed;
   width: 100%;
-  z-index: 9999;
-  top: 0;
+  padding-bottom: 30px;
 }
 
 .directcode-navbar .container {
@@ -54,6 +51,7 @@ body {
 .directcode-navbar nav:not(.icons) {
   float: left;
   padding-top: 3px;
+  overflow: hidden;
 }
 
 .directcode-navbar nav.icons {
@@ -74,6 +72,10 @@ body {
   margin-right: 35px;
   font-weight: 300;
   font-size: 20px;
+}
+
+.directcode-navbar nav.icons li {
+  margin-right: 0;
 }
 
 .directcode-navbar nav:not(.icons) li:not(.title):hover {
