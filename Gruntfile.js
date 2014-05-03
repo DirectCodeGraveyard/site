@@ -17,25 +17,7 @@ module.exports = function (grunt) {
       // Task configuration.
       jshint: {
          options: {
-            curly: true,
-            eqeqeq: true,
-            immed: true,
-            newcap: true,
-            noarg: true,
-            sub: true,
-            undef: true,
-            unused: true,
-            boss: true,
-            eqnull: true,
-            browser: true,
-            freeze: true,
-            globals: {
-               "$": false,
-               "console": false,
-               "jQuery": false,
-               "require": false,
-               "bootbox": false
-            }
+            jshintrc: true
          },
          gruntfile: {
             src: 'Gruntfile.js'
