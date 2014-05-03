@@ -1,13 +1,15 @@
 var cssFiles = [
    'DirectBuild/style.css',
    'developers/core.css',
-   'css/core.css'
+   'css/core.css',
+   'projects/style.css'
 ];
 
 var jsFiles = [
    'DirectBuild/site.js',
    'developers/developers.js',
-   'js/site.js'
+   'js/site.js',
+   'projects/projects.js'
 ];
 
 /* global module:false */
@@ -48,14 +50,18 @@ module.exports = function (grunt) {
       jsbeautifier: {
          files: jsFiles,
          options: {}
+      },
+      jsonlint: {
+         "package.json": [ 'package.json' ],
+         projects: [ 'projects/list.json' ]
       }
    });
 
    require('load-grunt-tasks')(grunt);
 
    // Default task.
-   grunt.registerTask('default', ['jsbeautifier', 'jshint', 'csslint']);
+   grunt.registerTask('default', ['jsbeautifier', 'jshint', 'csslint', 'jsonlint']);
    // Travis CI Task
-   grunt.registerTask('travis', ['jshint', 'csslint']);
-   grunt.registerTask('test', ['jshint', 'csslint']);
+   grunt.registerTask('travis', ['jshint', 'csslint', 'jsonlint']);
+   grunt.registerTask('test', ['jshint', 'csslint', 'jsonlint']);
 };
