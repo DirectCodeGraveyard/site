@@ -1,5 +1,5 @@
 var cssFiles = [
-   'DirectBuild/core.css',
+   'DirectBuild/style.css',
    'developers/core.css',
    'css/core.css'
 ];
