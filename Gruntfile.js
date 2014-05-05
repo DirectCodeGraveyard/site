@@ -14,9 +14,9 @@ var jsFiles = [
 
 /* global module:false */
 module.exports = function (grunt) {
-   // Project configuration.
+   /* Project configuration */
    grunt.initConfig({
-      // Task configuration.
+      /* Task Configuration */
       jshint: {
          options: {
             jshintrc: true
