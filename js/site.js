@@ -8,9 +8,9 @@ var directcode = {
 };
 
 /**
- * A Simple Function to get/change the title using jQuery. 
+ * A Simple Function to get/change the title using jQuery.
  */
-directcode.title = function (val) {
+directcode.title = function(val) {
     if (!val) {
         return $("head").find("title").text();
     } else {
@@ -18,18 +18,18 @@ directcode.title = function (val) {
     }
 };
 
-directcode.debug = function (line) {
+directcode.debug = function(line) {
     if (directcode._data_.logger.debug) {
         console.log("[DirectCode][DEBUG] " + line);
     }
 };
 
-directcode.log = function (line) {
+directcode.log = function(line) {
     if (!directcode._data_.logger.silent) {
         console.log("[DirectCode] " + line);
     }
 };
 
-$(document).ready(function () {
-   directcode.log("Page Ready"); 
+$(document).ready(function() {
+    directcode.log("Page Ready");
 });
