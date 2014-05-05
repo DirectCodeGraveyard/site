@@ -11,6 +11,7 @@ var directcode = {
  * A Simple Function to get/change the title using jQuery.
  */
 directcode.title = function(val) {
+    directcode.debug('directcode.title("' + val + '") called');
     if (!val) {
         return $("head").find("title").text();
     } else {
@@ -25,11 +26,17 @@ directcode.debug = function(line) {
 };
 
 directcode.log = function(line) {
+    directcode.debug('directcode.log("' + line + '") called');
     if (!directcode._data_.logger.silent) {
         console.log("[DirectCode] " + line);
     }
 };
 
-$(document).ready(function() {
-    directcode.log("Page Ready");
-});
+directcode.init = function () {
+    directcode.debug("directcode.init() called");
+    $(document).ready(function() {
+        directcode.log("Page Ready");
+    });
+};
+
+directcode.init();
