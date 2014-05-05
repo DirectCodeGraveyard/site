@@ -42,7 +42,10 @@ module.exports = function (grunt) {
          strict: {
             options: {
                import: 0,
-               ids: false
+               ids: false,
+               important: false,
+               "compatible-vendor-prefixes": false,
+               "universal-selector": false
             },
             src: cssFiles
          }
@@ -59,9 +62,9 @@ module.exports = function (grunt) {
 
    require('load-grunt-tasks')(grunt);
 
-   // Default task.
+   /* Default task. */
    grunt.registerTask('default', ['jsbeautifier', 'jshint', 'csslint', 'jsonlint']);
-   // Travis CI Task
+   /* Travis CI Task */
    grunt.registerTask('travis', ['jshint', 'csslint', 'jsonlint']);
    grunt.registerTask('test', ['jshint', 'csslint', 'jsonlint']);
 };
