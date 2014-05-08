@@ -32,7 +32,7 @@ directcode.log = function(line) {
     }
 };
 
-directcode.init = function () {
+directcode.init = function() {
     directcode.debug("directcode.init() called");
     $(document).ready(function() {
         directcode.log("Page Ready");
