@@ -4,7 +4,8 @@
   "description": "DirectCode GitHub Site",
   "private": true,
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "serve": "grunt serve"
   },
   "repository": {
     "type": "git",
