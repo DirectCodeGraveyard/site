@@ -1,3 +1,5 @@
+var express = require('express');
+
 var cssFiles = [
    'DirectBuild/style.css',
    'developers/core.css',
@@ -66,5 +68,13 @@ module.exports = function (grunt) {
    grunt.registerTask('default', ['jsbeautifier', 'jshint', 'csslint', 'jsonlint']);
    /* Travis CI Task */
    grunt.registerTask('travis', ['jshint', 'csslint', 'jsonlint']);
+   /* Testing Task */
    grunt.registerTask('test', ['jshint', 'csslint', 'jsonlint']);
+   /* Server Task */
+   grunt.registerTask('serve', function () {
+       var app = express();
+       app.use(express.static('.'));
+       app.listen(8080, process.env['OPENSHIFT_DIY_IP'] || "0.0.0.0");
+       this.async();
+   });
 };
