@@ -74,7 +74,7 @@ module.exports = function (grunt) {
    grunt.registerTask('serve', function () {
        var app = express();
        app.use(express.static('.'));
-       app.listen(8080, process.env['OPENSHIFT_DIY_IP'] || "0.0.0.0");
+       app.listen(8080, process.env.OPENSHIFT_DIY_IP || "0.0.0.0");
        this.async();
    });
 };
