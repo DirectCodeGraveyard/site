@@ -1,10 +1,12 @@
-express = require("express")
+express = require "express"
+
 cssFiles = [
   "DirectBuild/style.css"
   "developers/core.css"
   "css/core.css"
   "projects/style.css"
 ]
+
 jsFiles = [
   "DirectBuild/site.js"
   "developers/developers.js"
