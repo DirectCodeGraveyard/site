@@ -12,13 +12,12 @@ jsFiles = [
   "projects/projects.js"
 ]
 
-# global module:false 
 module.exports = (grunt) ->
   
-  # Project configuration 
+  # Project Configuration
   grunt.initConfig
     
-    # Task Configuration 
+    # Task Configuration
     jshint:
       options:
         jshintrc: true
@@ -60,7 +59,7 @@ module.exports = (grunt) ->
 
   require("load-grunt-tasks") grunt
   
-  # Default task. 
+  # Default Task
   grunt.registerTask "default", [
     "jsbeautifier"
     "jshint"
@@ -68,26 +67,23 @@ module.exports = (grunt) ->
     "jsonlint"
   ]
   
-  # Travis CI Task 
+  # Travis CI Task
   grunt.registerTask "travis", [
     "jshint"
     "csslint"
     "jsonlint"
   ]
   
-  # Testing Task 
+  # Testing Task
   grunt.registerTask "test", [
     "jshint"
     "csslint"
     "jsonlint"
   ]
   
-  # Server Task 
+  # Server Task
   grunt.registerTask "serve", ->
     app = express()
     app.use express.static(".")
     app.listen 8080, process.env.OPENSHIFT_DIY_IP or "0.0.0.0"
     @async()
-    return
-
-  return
