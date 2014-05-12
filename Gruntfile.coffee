@@ -15,6 +15,7 @@ files =
     ]
 
 module.exports = (grunt) ->
+  require('jit-grunt') grunt
   
   # Project Configuration
   grunt.initConfig
@@ -50,9 +51,10 @@ module.exports = (grunt) ->
     jsonlint:
       "package.json": ["package.json"]
       projects: ["projects/list.json"]
+      
+    coffeelint:
+      gruntfile: "Gruntfile.coffee"
 
-  require("load-grunt-tasks") grunt
-  
   # Default Task
   grunt.registerTask "default", [
     "jsbeautifier"
@@ -65,14 +67,16 @@ module.exports = (grunt) ->
   grunt.registerTask "travis", [
     "jshint"
     "csslint"
-    "jsonlint"
+    "jsonlint",
+    "coffeelint"
   ]
   
   # Testing Task
   grunt.registerTask "test", [
     "jshint"
     "csslint"
-    "jsonlint"
+    "jsonlint",
+    "coffeelint"
   ]
   
   # Server Task
