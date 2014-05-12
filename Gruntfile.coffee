@@ -1,18 +1,18 @@
 express = require "express"
 
-cssFiles = [
-  "DirectBuild/style.css"
-  "developers/core.css"
-  "css/core.css"
-  "projects/style.css"
-]
-
-jsFiles = [
-  "DirectBuild/site.js"
-  "developers/developers.js"
-  "js/site.js"
-  "projects/projects.js"
-]
+files =
+    js: [
+        "DirectBuild/site.js"
+        "developers/developers.js"
+        "js/site.js"
+        "projects/projects.js"
+    ]
+    css: [
+        "DirectBuild/style.css"
+        "developers/core.css"
+        "css/core.css"
+        "projects/style.css"
+    ]
 
 module.exports = (grunt) ->
   
@@ -24,23 +24,16 @@ module.exports = (grunt) ->
       options:
         jshintrc: true
 
-      gruntfile:
-        src: "Gruntfile.js"
-
-      site:
-        src: jsFiles
+      main:
+        src: files.js
 
     watch:
-      gruntfile:
-        files: "<%= jshint.gruntfile.src %>"
-        tasks: ["jshint:gruntfile"]
-
-      lib_test:
-        files: "**/**"
+      js:
+        files: files.js
         tasks: ["default"]
 
     csslint:
-      strict:
+      main:
         options:
           import: 0
           ids: false
@@ -48,11 +41,10 @@ module.exports = (grunt) ->
           "compatible-vendor-prefixes": false
           "universal-selector": false
 
-        src: cssFiles
+        src: files.css
 
     jsbeautifier:
-      javascript: jsFiles
-      gruntfile: "Gruntfile.js"
+      javascript: files.js
       options: {}
 
     jsonlint:
