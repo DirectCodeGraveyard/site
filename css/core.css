@@ -24,7 +24,7 @@ body {
 
 /*
  * The implementation of .directcode-navbar, using Flexbox.
- * Currently needs: Better responsiveness.
+ * TODO: Better responsiveness.
  */
 .directcode-navbar {
   width: 100%;

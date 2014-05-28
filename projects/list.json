@@ -1,42 +1,42 @@
 [
    {
-      "name":"ChromeGet",
-      "url":"https://github.com/kaendfinger/chromeget/",
-      "icon":"terminal",
-      "categories":[
+      "name": "ChromeGet",
+      "url": "https://github.com/kaendfinger/chromeget/",
+      "icon": "terminal",
+      "categories": [
          "Chrome"
       ]
    },
    {
-      "name":"DirectBuild",
-      "url":"https://github.com/DirectBuild/DirectBuild/",
-      "icon":"refresh",
-      "categories":[
+      "name": "DirectBuild",
+      "url": "https://github.com/DirectBuild/DirectBuild/",
+      "icon": "refresh",
+      "categories": [
          "Groovy",
          "Development"
       ]
    },
    {
-      "name":"Minetweak",
-      "url":"https://github.com/Minetweak/Minetweak/",
-      "icon":"bolt",
-      "categories":[
+      "name": "Minetweak",
+      "url": "https://github.com/Minetweak/Minetweak/",
+      "icon": "bolt",
+      "categories": [
          "Games"
       ]
    },
    {
-      "name":"devtools",
-      "url":"https://github.com/DirectMyFile/devtools/",
-      "icon":"wrench",
-      "categories":[
+      "name": "devtools",
+      "url": "https://github.com/DirectMyFile/devtools/",
+      "icon": "wrench",
+      "categories": [
          "Development"
       ]
    },
    {
-      "name":"NanoBot",
-      "url":"https://github.com/DirectMyFile/NanoBot/",
-      "icon":"comment",
-      "categories":[
+      "name": "NanoBot",
+      "url": "https://github.com/DirectMyFile/NanoBot/",
+      "icon": "comment",
+      "categories": [
          "IRC"
       ]
    }
