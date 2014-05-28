@@ -1,26 +1,26 @@
 express = require "express"
 
 files =
-    js: [
-        "DirectBuild/site.js"
-        "developers/developers.js"
-        "js/site.js"
-        "projects/projects.js"
-    ]
-    css: [
-        "DirectBuild/style.css"
-        "developers/core.css"
-        "css/core.css"
-        "projects/style.css"
-    ]
+  js: [
+    "DirectBuild/site.js"
+    "developers/developers.js"
+    "js/site.js"
+    "projects/projects.js"
+  ]
+  css: [
+    "DirectBuild/style.css"
+    "developers/style.css"
+    "css/core.css"
+    "projects/style.css"
+  ]
 
 module.exports = (grunt) ->
   require('jit-grunt') grunt
-  
+
   # Project Configuration
   grunt.initConfig
-    
-    # Task Configuration
+
+  # Task Configuration
     jshint:
       options:
         jshintrc: true
@@ -51,7 +51,7 @@ module.exports = (grunt) ->
     jsonlint:
       "package.json": ["package.json"]
       projects: ["projects/list.json"]
-      
+
     coffeelint:
       gruntfile: "Gruntfile.coffee"
 
@@ -62,7 +62,7 @@ module.exports = (grunt) ->
     "csslint"
     "jsonlint"
   ]
-  
+
   # Travis CI Task
   grunt.registerTask "travis", [
     "jshint"
@@ -70,7 +70,7 @@ module.exports = (grunt) ->
     "jsonlint",
     "coffeelint"
   ]
-  
+
   # Testing Task
   grunt.registerTask "test", [
     "jshint"
@@ -78,7 +78,7 @@ module.exports = (grunt) ->
     "jsonlint",
     "coffeelint"
   ]
-  
+
   # Server Task
   grunt.registerTask "serve", ->
     app = express()
