@@ -34,6 +34,14 @@ directcode.log = function(line) {
 
 directcode.init = function() {
     directcode.debug("directcode.init() called");
+    var path = "../js/";
+    $("script").find(function (i, e) {
+        var src = $(e).attr("src");
+        if (typeof src !== "undefined" && src.indexOf("site.js") !== -1) {
+            path = $(e).attr("src").replace("site.js", "");
+        }
+    });
+    $.getScript(path + "analytics.js");
     $(document).ready(function() {
         directcode.log("Page Ready");
     });
