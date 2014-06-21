@@ -5,6 +5,7 @@ files =
     "DirectBuild/site.js"
     "developers/developers.js"
     "js/site.js"
+    "js/analytics.js"
     "projects/projects.js"
   ]
   css: [
