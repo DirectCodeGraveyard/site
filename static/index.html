@@ -2,52 +2,27 @@
 <html data-is-root="true" lang="en">
 
 <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://brick.a.ssl.fastly.net/Open+Sans:300,400,700">
+    <!-- They don't tell you the part where you have to code most of the stuffs still. This is the Polymer website CSS file. -->
+    <link href="http://www.polymer-project.org/css/site2.css?20140625" rel="stylesheet">
     <link href="css/core.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
     <title>directcode</title>
+
+    <script src="./components/platform/platform.js"></script>
+
+    <link rel="import" href="./components/polymer/polymer.html">
+
+    <link rel="import" href="./components/font-roboto/roboto.html">
+    <link rel="import" href="./components/directcode/directcode.html">
 </head>
 
 <body>
+  <directcode-header></directcode-header>
 
-    <header id="navigation" class="directcode-navbar" role="banner">
-      <div class="container">
-        <nav>
-          <li class="title"><a href="../">directcode</a></li>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="developers/">Developers</a></li>
-          <li><a href="projects/">Projects</a></li>
-          <li><a href="sponsors/">Sponsors</a></li>
-        </nav>
-        <nav class="icons">
-          <li><a href="https://github.com/DirectMyFile/"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://bitbucket.org/DirectMyFile/"><i class="fa fa-bitbucket"></i></a></li>
-        </nav>
-      </div>
-    </header>
-
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="page-header">directcode</h1>
-
-            <p>Open Source Coding Group</p>
-
-            <p>
-                <a href="https://github.com/DirectMyFile/" class="btn btn-primary btn-lg" role="button"><i class="fa fa-github"></i> GitHub</a>
-                <a href="https://bitbucket.org/DirectMyFile/" class="btn btn-primary btn-lg" role="button"><i class="fa fa-bitbucket"></i> BitBucket</a>
-            </p>
-        </div>
-    </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootbox.min.js"></script>
-    <script src="js/site.js"></script>
-    <script src="js/analytics.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/analytics.js"></script>
 </body>
 
 </html>
