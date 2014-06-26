@@ -1,7 +1,19 @@
-body {
-  font-family: "RobotoDraft";
-}
-
 core-toolbar {
   background-color: red;
+}
+
+button {
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+body {
+  font-size: 16px;
+  font-family: "RobotoDraft", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

@@ -1,8 +1,8 @@
-<link rel="import" href="../core-icon-button/core-icon-button.html">
-<link rel="import" href="../core-toolbar/core-toolbar.html">
-<link rel="import" href="../paper-button/paper-button.html">
-<link rel="import" href="../paper-tabs/paper-tabs.html">
-<link rel="import" href="../paper-tabs/paper-tab.html">
+<link rel="import" href="../components/core-icon-button/core-icon-button.html">
+<link rel="import" href="../components/core-toolbar/core-toolbar.html">
+<link rel="import" href="../components/paper-button/paper-button.html">
+<link rel="import" href="../components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../components/paper-tabs/paper-tab.html">
 
 <polymer-element name="directcode-header">
 
@@ -14,54 +14,59 @@
         height: 100%;
         box-sizing: border-box;
       }
+
       core-card {
         display: block;
         width: 300px;
         height: 150px;
         padding: 4px;
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
-        border-bottom-right-radius: 2px;
-        border-bottom-left-radius: 2px;
-        box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 4px, rgba(0, 0, 0, 0.0980392) 0px 0px 3px;
-        margin: 20px 0px 0px;
+        border-radius: 2px;
+        box-shadow: rgba(0, 0, 0, 0.0980392) 0 2px 4px, rgba(0, 0, 0, 0.0980392) 0 0 3px;
+        margin: 20px 0 0;
         font-size: 20px;
         position: relative;
         background-color: rgb(255, 255, 255);
       }
-      #core_toolbar {
-        right: 0px;
-        left: 0px;
+
+      .toolbar {
+        right: 0;
+        left: 0;
         color: rgb(255, 255, 255);
         fill: rgb(255, 255, 255);
-        top: 0px;
+        top: 0;
         position: absolute;
         width: 100%;
         background-color: rgb(119, 148, 254);
       }
+
       #paper_toast {
         left: 1470px;
         top: 550px;
         position: absolute;
       }
+
       #paper_button::shadow #ripple {
         color: rgb(255, 255, 140);
       }
-      #paper_tabs {
+
+      .tabs {
         width: 100%;
         color: rgb(255, 255, 255);
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 2px;
-        left: 0px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 3px 2px;
+        left: 0;
         top: 60px;
         position: absolute;
         background-color: rgb(80, 140, 225);
       }
     </style>
-    <core-toolbar id="core_toolbar">
+    <core-toolbar class="toolbar">
       <div id="div" flex>directcode</div>
-      <paper-button iconsrc="https://dl.dropboxusercontent.com/u/27056280/GitHub-Mark-Light-120px-plus.png" id="paper_button"></paper-button>
+      <a href="https://github.com/DirectMyFile">
+        <paper-button iconsrc="images/GitHub.png"
+                      id="paper_button"></paper-button>
+      </a>
     </core-toolbar>
-    <paper-tabs selected="0" selectedindex="0" id="paper_tabs">
+    <paper-tabs selected="0" selectedindex="0" class="tabs">
       <paper-tab id="paper_tab" active>PROJECTS</paper-tab>
       <paper-tab id="paper_tab3">DEVELOPERS</paper-tab>
       <paper-tab id="paper_tab4">SPONSORS</paper-tab>
@@ -69,11 +74,7 @@
   </template>
 
   <script>
-
-    Polymer('directcode-header', {
-
-    });
-
+    Polymer('directcode-header', {});
   </script>
 
 </polymer-element>
