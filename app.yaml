@@ -15,7 +15,7 @@ handlers:
 
 - url: /projects.yaml
   mime_type: text/yaml
-  static_file: data/projects.yaml
+  static_files: data/projects.yaml
   upload: data/projects.yaml
 
 - url: /(.*\.atom)
