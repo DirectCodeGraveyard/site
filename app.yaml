@@ -13,6 +13,10 @@ handlers:
   upload: static/(.*\.(appcache|manifest))
   expiration: "0m"
 
+- url: /data/(.*)
+  static_file: data/\1
+  upload: data/(.*)
+
 - url: /(.*\.atom)
   mime_type: application/atom+xml
   static_files: static/\1

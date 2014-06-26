@@ -1,0 +1,9 @@
+irc.dart:
+  description: Dart IRC Library
+  link: https://github.com/DirectMyFile/irc.dart
+  authors:
+    - kaendfinger
+    - samrg472
+    - TheMike
+  technology:
+    - Dart
