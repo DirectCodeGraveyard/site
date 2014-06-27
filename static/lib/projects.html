@@ -1,4 +1,5 @@
 <link rel="import" href="../components/core-ajax/core-ajax.html">
+<link rel="import" href="../components/core-menu/core-menu.html">
 
 <polymer-element name="project-list">
   <template>
@@ -24,11 +25,15 @@
       id="req"></core-ajax>
       <div horizontal around-justified layout id="projects">
         <template repeat="{{project in projects}}">
-          <paper-button raisedButton>
-            <a href="{{project.url}}">{{project.name}}</a>
-          </paper-button>
+        <a href="{{project.link}}">
+          <paper-button raisedButton>{{project.name}}</paper-button>
+        </a>
         </template>
       </div>
+
+    <core-menu on-core-select="menuSelect">
+      <core-item label="Checkbox" tag="paper-checkbox" url="../paper-checkbox/demo.html"></core-item>    
+    </core-menu>
   </template>
 
   <script src="../js/js-yaml.min.js"></script>
@@ -48,6 +53,9 @@
           });
           tpl.projects = prj;
         });
+      },
+      menuSelect: function (e) {
+        console.log(e);
       }
     });
   </script>
