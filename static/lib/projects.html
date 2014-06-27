@@ -1,9 +1,54 @@
+<link rel="import" href="../components/core-ajax/core-ajax.html">
+
 <polymer-element name="project-list">
   <template>
-    <h1>Projects</h1>
+    <style>
+      #prj-button {
+        background: #4285f4;
+        color: #fff;
+      }
+
+      #prj-button:hover {
+        background: #2a56c6;
+      }
+
+      #prj-button::shadow #ripple {
+        color: #2a56c6;
+      }
+    </style>
+
+    <core-ajax
+      auto
+      url="/projects.yaml"
+      handleAs="text"
+      id="req"></core-ajax>
+      <div horizontal around-justified layout id="projects">
+        <template repeat="{{project in projects}}">
+          <paper-button raisedButton>
+            <a href="{{project.url}}">{{project.name}}</a>
+          </paper-button>
+        </template>
+      </div>
   </template>
 
+  <script src="../js/js-yaml.min.js"></script>
   <script>
-    Polymer("project-list", {});
+    Polymer("project-list", {
+      ready: function () {
+        var proj_req = this.$.req;
+        var tpl = this;
+        proj_req.addEventListener("core-response", function (e) {
+          var data = proj_req.response;
+          var projects = jsyaml.load(data);
+          var prj = [];
+          Object.keys(projects).forEach(function (key) {
+            var obj = projects[key];
+            obj["name"] = key;
+            prj.push(obj);
+          });
+          tpl.projects = prj;
+        });
+      }
+    });
   </script>
 </polymer-element>
