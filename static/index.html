@@ -13,14 +13,39 @@
   <link rel="import" href="./components/polymer/polymer.html">
 
   <link rel="import" href="./components/font-roboto/roboto.html">
-  <link rel="import" href="lib/directcode.html">
+  <link rel="import" href="lib/header.html">
+  <link rel="import" href="lib/projects.html">
+  <link rel="import" href="lib/developers.html">
+  <link rel="import" href="lib/sponsors.html">
 </head>
 
 <body>
 <directcode-header></directcode-header>
 
-<script src="js/jquery.min.js"></script>
+<div center id="content"></div>
+
 <script src="js/analytics.js"></script>
 </body>
+
+<script>
+
+  var content = document.querySelector("#content");
+
+  document.querySelector("directcode-header").addEventListener("page-change", function (event) {
+    console.log(event);
+    var item = event.detail;
+    switch (item.textContent) {
+      case "PROJECTS":
+        content.innerHTML = "<project-list></project-list>";
+        break;
+      case "DEVELOPERS":
+        content.innerHTML = "<developer-list></developer-list>";
+        break;
+      case "SPONSORS":
+        content.innerHTML = "<sponsors-tab></sponsors-tab>";
+        break;
+    }
+  });
+</script>
 
 </html>
