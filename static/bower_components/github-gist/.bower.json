@@ -1,0 +1,37 @@
+{
+  "name": "github-gist",
+  "version": "0.1.0",
+  "authors": [
+    "Dmitry Maslov <maslov.dmitrij@gmail.com>"
+  ],
+  "description": "A web component to display github gists",
+  "main": "src/github-gist.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "github",
+    "gist"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dmaslov/github-gist",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.0"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "572ecd206c24c16a5a1fae31568dccbbe13d9376"
+  },
+  "_source": "git://github.com/dmaslov/github-gist.git",
+  "_target": "~0.1.0",
+  "_originalSource": "github-gist",
+  "_direct": true
+}
