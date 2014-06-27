@@ -4,7 +4,7 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
-default_expiration: "30d"
+default_expiration: "1m"
 
 handlers:
 - url: /(.*\.(appcache|manifest))
@@ -48,7 +48,7 @@ handlers:
   mime_type: text/html
   static_files: static/\1
   upload: static/(.*\.html)
-  expiration: "1h"
+  expiration: "5m"
 
 - url: /(.*\.ico)
   mime_type: image/x-icon
@@ -178,15 +178,15 @@ handlers:
 - url: /(.+)/
   static_files: static/\1/index.html
   upload: static/(.+)/index.html
-  expiration: "15m"
+  expiration: "1m"
 
 - url: /(.+)
   static_files: static/\1/index.html
   upload: static/(.+)/index.html
-  expiration: "15m"
+  expiration: "1m"
 
 # site root
 - url: /
   static_files: static/index.html
   upload: static/index.html
-  expiration: "15m"
+  expiration: "1m"
