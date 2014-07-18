@@ -1,50 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- They don't tell you the part where you have to code most of the stuffs still. This is the Polymer website CSS file. -->
+    <link href="css/core.css" rel="stylesheet">
 
-<head>
-  <!-- They don't tell you the part where you have to code most of the stuffs still. This is the Polymer website CSS file. -->
-  <link href="css/core.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>directcode</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>directcode</title>
+    <script src="./bower_components/platform/platform.js"></script>
 
-  <script src="./bower_components/platform/platform.js"></script>
+    <link rel="import" href="./bower_components/polymer/polymer.html">
+    <link rel="import" href="./bower_components/core-animated-pages/core-animated-pages.html">
+    <link rel="import" href="./bower_components/core-animated-pages/transitions/slide-from-right.html">
+    <link rel="import" href="./bower_components/font-roboto/roboto.html">
+    <link rel="import" href="lib/header.html">
+    <link rel="import" href="lib/projects.html">
+    <link rel="import" href="lib/developers.html">
+    <link rel="import" href="lib/sponsors.html">
+  </head>
 
-  <link rel="import" href="./bower_components/polymer/polymer.html">
+  <body>
+    <dc-header></dc-header>
+    <core-animated-pages flex id="dc-content" selected="0" transitions="slide-from-right">
+      <section>
+        <dc-projects></dc-projects>
+      </section>
+      <section>
+        <dc-developers></dc-developers>
+      </section>
+      <section>
+        <dc-sponsors></dc-sponsors>
+      </section>
+    </core-animated-pages>
 
-  <link rel="import" href="./bower_components/font-roboto/roboto.html">
-  <link rel="import" href="lib/header.html">
-  <link rel="import" href="lib/projects.html">
-  <link rel="import" href="lib/developers.html">
-  <link rel="import" href="lib/sponsors.html">
-</head>
-
-<body>
-<directcode-header></directcode-header>
-
-<div center id="content"></div>
-
-<script src="js/analytics.js"></script>
-</body>
-
-<script>
-
-  var content = document.querySelector("#content");
-
-  document.querySelector("directcode-header").addEventListener("page-change", function (event) {
-    var item = event.detail;
-    switch (item.textContent) {
-      case "PROJECTS":
-        content.innerHTML = "<project-list></project-list>";
-        break;
-      case "DEVELOPERS":
-        content.innerHTML = "<developer-list></developer-list>";
-        break;
-      case "SPONSORS":
-        content.innerHTML = "<sponsors-tab></sponsors-tab>";
-        break;
-    }
-  });
-</script>
-
+    <script src="js/analytics.js"></script>
+    <script>
+      document.querySelector("dc-header").addEventListener("page-change", function (event) {
+        // grumbles something about a derp in Polymer.
+        document.querySelector("#dc-content").selected = event.detail - 1;
+      });
+    </script>
+  </body>
 </html>

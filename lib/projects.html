@@ -1,9 +1,14 @@
 <link rel="import" href="../bower_components/core-ajax/core-ajax.html">
 <link rel="import" href="../bower_components/core-menu/core-menu.html">
 
-<polymer-element name="project-list">
+<polymer-element name="dc-projects">
   <template>
     <style>
+      :host {
+        display: block;
+        padding: 10px;
+      }
+
       #prj-button {
         background: #4285f4;
         color: #fff;
@@ -18,23 +23,19 @@
       }
     </style>
 
-    <core-ajax
-      auto
-      url="/projects.yaml"
-      handleAs="text"
-      id="req"></core-ajax>
-      <div horizontal around-justified layout id="projects">
-        <template repeat="{{project in projects}}">
+    <core-ajax auto url="/projects.yaml" handleAs="text" id="req"></core-ajax>
+    <div horizontal around-justified layout id="projects">
+      <template repeat="{{project in projects}}">
         <a href="{{project.link}}">
           <paper-button raisedButton>{{project.name}}</paper-button>
         </a>
-        </template>
-      </div>
+      </template>
+    </div>
   </template>
 
   <script src="../js/js-yaml.min.js"></script>
   <script>
-    Polymer("project-list", {
+    Polymer("dc-projects", {
       ready: function () {
         var proj_req = this.$.req;
         var tpl = this;
