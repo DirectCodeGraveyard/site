@@ -7,3 +7,22 @@ irc.dart:
     - TheMike
   technology:
     - Dart
+    - IRC
+PolymorphicBot:
+  description: A Modular IRC Bot
+  link: https://github.com/PolymorphicBot/PolymorphicBot
+  authors:
+    - kaendfinger
+    - samrg472
+    - TheMike
+  technology:
+    - Dart
+    - IRC
+JPower:
+  description: Utility Library for Java 8
+  link: https://github.com/DirectMyFile/JPower
+  authors:
+    - kaendfinger
+    - Logan
+  technology:
+    - Java
