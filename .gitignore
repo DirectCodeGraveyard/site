@@ -3,3 +3,6 @@ build
 .idea/
 *.iml
 packages
+pubspec.lock
+web/api/members.json
+web/api/repos.json
