@@ -1,5 +1,5 @@
 *.sublime-*
-build/
+build
 .idea/
 *.iml
-node_modules/
+packages
