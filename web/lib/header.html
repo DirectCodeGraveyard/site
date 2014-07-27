@@ -1,8 +1,8 @@
-<link rel="import" href="../bower_components/core-icon-button/core-icon-button.html">
-<link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
-<link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
-<link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="../packages/core-elements/core-icon-button.html">
+<link rel="import" href="../packages/core-elements/core-toolbar.html">
+<link rel="import" href="../packages/paper-elements/paper-icon-button.html">
+<link rel="import" href="../packages/paper-elements/paper-tabs.html">
+<link rel="import" href="../packages/paper-elements/paper-tab.html">
 
 <polymer-element name="dc-header">
 
@@ -57,18 +57,5 @@
     </core-header-panel>
   </template>
 
-  <script>
-    Polymer('dc-header', {
-      ready: function() {
-        this.tabs = ["PROJECTS", "DEVELOPERS", "SPONSORS"];
-        this.addEventListener("core-select", function(event) {
-          if(event.detail.item.textContent) {
-            // grumbles something about a derp in Polymer.
-            this.fire("page-change", this.tabs.indexOf(event.detail.item.textContent) + 1);
-          }
-        });
-      }
-    });
-  </script>
-
+  <script type="application/dart" src="header.dart"></script>
 </polymer-element>

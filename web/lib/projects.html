@@ -1,5 +1,5 @@
-<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
-<link rel="import" href="../bower_components/core-menu/core-menu.html">
+<link rel="import" href="../packages/core-elements/core-ajax.html">
+<link rel="import" href="../packages/core-elements/core-menu.html">
 
 <polymer-element name="dc-projects">
   <template>
@@ -22,38 +22,7 @@
         color: #2a56c6;
       }
     </style>
-
-    <core-ajax auto url="/projects.yaml" handleAs="text" id="req"></core-ajax>
-    <div horizontal around-justified layout id="projects">
-      <template repeat="{{project in projects}}">
-        <a href="{{project.link}}">
-          <paper-button raisedButton>{{project.name}}</paper-button>
-        </a>
-      </template>
-    </div>
   </template>
 
-  <script src="../js/js-yaml.min.js"></script>
-  <script>
-    Polymer("dc-projects", {
-      ready: function () {
-        var proj_req = this.$.req;
-        var tpl = this;
-        proj_req.addEventListener("core-response", function (e) {
-          var data = proj_req.response;
-          var projects = jsyaml.load(data);
-          var prj = [];
-          Object.keys(projects).forEach(function (key) {
-            var obj = projects[key];
-            obj["name"] = key;
-            prj.push(obj);
-          });
-          tpl.projects = prj;
-        });
-      },
-      menuSelect: function (e) {
-        console.log(e);
-      }
-    });
-  </script>
+  <script type="application/dart" src="projects.dart"></script>
 </polymer-element>

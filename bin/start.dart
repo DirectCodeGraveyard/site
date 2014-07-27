@@ -25,7 +25,7 @@ Future<String> get(String path) {
   return completer.future;
 }
 
-Future github(timer) {
+Future github() {
   var completer = new Completer();
   var reqs = <Future<String>>[];
 
@@ -57,11 +57,11 @@ Future github(timer) {
       });
     }
 
-    var file = new File('web/api/members.json');
+    var file = new File('build/api/members.json');
     file.createSync();
     file.writeAsStringSync(JSON.encode(members_new));
 
-    file = new File('web/api/repos.json');
+    file = new File('build/api/repos.json');
     file.createSync();
     file.writeAsStringSync(JSON.encode(repos_new));
 
@@ -79,14 +79,14 @@ void main(List<String> args) {
   }
   config = JSON.decode(config_file.readAsStringSync());
 
-  github(null).then((val) {
+  github().then((val) {
     new Timer.periodic(new Duration(minutes: 5), github);
 
     HttpServer.bind(config['host'], config['port']).then((server) {
       print("Server listening on ${pen(config['host'] + ':' + config['port'].toString())}.");
       server.listen((HttpRequest req) {
         String path = req.uri.toString() == "/" ? "/index.html" : req.uri.toString();
-        path = "web" + path;
+        path = "build" + path;
 
         var file = new File(path);
 
@@ -95,6 +95,7 @@ void main(List<String> args) {
           print(pen("GET") + " $path");
         } else {
           req.response.write("404");
+          print(pen.xterm(2)("404") + " $path");
         }
         req.response.close();
       });
