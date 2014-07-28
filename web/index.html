@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- They don't tell you the part where you have to code most of the stuffs still. This is the Polymer website CSS file. -->
     <link href="css/core.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -11,17 +10,17 @@
     <script src="packages/web_components/dart_support.js"></script>
 
     <link rel="import" href="packages/polymer/polymer.html">
-    <link rel="import" href="packages/core-elements/core-animated-pages.html">
-    <link rel="import" href="packages/core-elements/transitions/slide-from-right.html">
-    <link rel="import" href="./packages/paper-elements/roboto.html">
+    <link rel="import" href="packages/paper_elements/core_animated_pages.html">
+    <link rel="import" href="packages/paper_elements/src/core-animated-pages/transitions/slide-from-right.html">
+    <link rel="import" href="packages/paper_elements/roboto.html">
     <link rel="import" href="lib/header.html">
     <link rel="import" href="lib/projects.html">
     <link rel="import" href="lib/developers.html">
-    <link rel="import" href="lib/sponsors.html">
   </head>
 
   <body unresolved>
     <dc-header></dc-header>
+
     <core-animated-pages flex id="dc-content" selected="0" transitions="slide-from-right">
       <section>
         <dc-projects></dc-projects>
@@ -29,18 +28,9 @@
       <section>
         <dc-developers></dc-developers>
       </section>
-      <section>
-        <dc-sponsors></dc-sponsors>
-      </section>
     </core-animated-pages>
 
-    <script src="js/analytics.js"></script>
-    <script type="application/dart">
-      import 'dart:html';
-      export 'package:polymer/init.dart';
-      document.querySelector("dc-header").addEventListener("page-change", (event) {
-        document.querySelector("#dc-content").selected = event.detail;
-      });
-    </script>
+    <script src="packages/browser/dart.js"></script>
+    <script type="application/dart" src="main.dart"></script>
   </body>
 </html>

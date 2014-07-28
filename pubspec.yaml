@@ -2,8 +2,11 @@ name: directcode.org
 description: DirectCode Site
 version: 1.0.0
 dependencies:
-  ansicolor: ">=0.0.9 <0.1.0"
+  ansicolor: '>=0.0.9 <0.1.0'
   polymer: '>=0.11.0 <0.12.0'
   core_elements: '>=0.0.6 <0.1.0'
   paper_elements: '>=0.0.1 <0.1.0'
-  browser: any
+  browser: '>=0.10.0+2 <0.11.0'
+transformers:
+- polymer:
+    entry_points: web/index.html
