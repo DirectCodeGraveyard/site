@@ -1,12 +1,13 @@
-name: directcode.org
-description: DirectCode Site
+name: directcode
 version: 1.0.0
+description: DirectCode Site
 dependencies:
   ansicolor: '>=0.0.9 <0.1.0'
-  polymer: '>=0.11.0 <0.12.0'
+  browser: '>=0.10.0+2 <0.11.0'
   core_elements: '>=0.0.6 <0.1.0'
   paper_elements: '>=0.0.1 <0.1.0'
-  browser: '>=0.10.0+2 <0.11.0'
+  path: 1.2.2
+  polymer: '>=0.11.0 <0.12.0'
 transformers:
 - polymer:
     entry_points: web/index.html

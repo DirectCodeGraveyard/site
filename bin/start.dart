@@ -3,6 +3,7 @@ import 'dart:io';
 import 'dart:convert';
 
 import 'package:ansicolor/ansicolor.dart';
+import 'package:path/path.dart' as path;
 
 Map<dynamic, dynamic> config;
 AnsiPen pen = new AnsiPen()..yellow(bold: true);
@@ -25,7 +26,7 @@ Future<String> get(String path) {
   return completer.future;
 }
 
-Future github() {
+Future github([_]) {
   var completer = new Completer();
   var reqs = <Future<String>>[];
 
@@ -57,12 +58,12 @@ Future github() {
       });
     }
 
-    var file = new File('build/api/members.json');
-    file.createSync();
+    var file = new File('build/web/api/members.json');
+    file.createSync(recursive: true);
     file.writeAsStringSync(JSON.encode(members_new));
 
-    file = new File('build/api/repos.json');
-    file.createSync();
+    file = new File('build/web/api/repos.json');
+    file.createSync(recursive: true);
     file.writeAsStringSync(JSON.encode(repos_new));
 
     print("Regenerated Github API files.");
@@ -79,23 +80,38 @@ void main(List<String> args) {
   }
   config = JSON.decode(config_file.readAsStringSync());
 
+  var build_dir = new Directory("build/web").absolute;
+  
   github().then((val) {
     new Timer.periodic(new Duration(minutes: 5), github);
 
     HttpServer.bind(config['host'], config['port']).then((server) {
       print("Server listening on ${pen(config['host'] + ':' + config['port'].toString())}.");
+      pen.reset();
       server.listen((HttpRequest req) {
-        String path = req.uri.toString() == "/" ? "/index.html" : req.uri.toString();
-        path = "build" + path;
+        var req_path = req.uri.toString() == "/" ? "/index.html" : req.uri.toString();
 
-        var file = new File(path);
+        var file = new File(path.join(build_dir.path, req_path.substring(1)));
 
+        if (!file.absolute.path.startsWith(build_dir.path)) {
+          req.response.write("404");
+          pen.xterm(3);
+          print(pen("404") + " $req_path");
+          pen.reset();
+          req.response.close();
+          return;
+        }
+        
         if(file.existsSync()) {
-          req.response.write(file.readAsStringSync());
-          print(pen("GET") + " $path");
+          req.response.add(file.readAsBytesSync());
+          pen.xterm(2);
+          print(pen("GET") + " $req_path");
+          pen.reset();
         } else {
           req.response.write("404");
-          print(pen.xterm(2)("404") + " $path");
+          pen.xterm(3);
+          print(pen("404") + " $req_path");
+          pen.reset();
         }
         req.response.close();
       });
