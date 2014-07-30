@@ -1,7 +1,6 @@
 import 'dart:html';
 
 import 'package:polymer/polymer.dart';
-import 'package:core_elements/core_header_panel.dart';
 import 'package:paper_elements/paper_tabs.dart';
 import 'package:paper_elements/paper_tab.dart';
 
