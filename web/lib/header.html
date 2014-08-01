@@ -1,14 +1,14 @@
-<link rel="import" href="packages/polymer/polymer.html">
-<link rel="import" href="packages/core_elements/core_icon_button.html">
-<link rel="import" href="packages/core_elements/core_toolbar.html">
-<link rel="import" href="packages/paper_elements/paper_icon_button.html">
-<link rel="import" href="packages/paper_elements/paper_tabs.html">
-<link rel="import" href="packages/paper_elements/paper_tab.html">
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="../packages/core_elements/core_icon_button.html">
+<link rel="import" href="../packages/core_elements/core_toolbar.html">
+<link rel="import" href="../packages/paper_elements/paper_icon_button.html">
+<link rel="import" href="../packages/paper_elements/paper_tabs.html">
+<link rel="import" href="../packages/paper_elements/paper_tab.html">
 
 <polymer-element name="dc-header">
 
   <template>
-    <style>
+    <style shim-shadowdom>
       :host {
         position: relative;
         width: 100%;
@@ -45,7 +45,7 @@
 
     <core-header-panel>
       <core-toolbar class="toolbar">
-        <div id="div" flex>directcode</div>
+        <div id="div" flex>{{branding}}</div>
         <a href="https://github.com/DirectMyFile">
           <paper-icon-button iconsrc="images/GitHub.png" class="github-button"></paper-icon-button>
         </a>
@@ -57,6 +57,5 @@
       </paper-tabs>
     </core-header-panel>
   </template>
-
   <script type="application/dart" src="header.dart"></script>
 </polymer-element>

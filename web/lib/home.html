@@ -1,0 +1,23 @@
+<link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="news.html">
+<link rel="import" href="../packages/paper_elements/paper_toast.html">
+
+<polymer-element name="dc-home">
+  <template>
+    <style>
+      :host {
+        display: block;
+        padding: 10px;
+      }
+    </style>
+    <div horizontal center-justified layout>
+        <h1>Welcome to DirectCode!</h1>
+    </div>
+    
+    <dc-news></dc-news>
+    
+    <paper-toast opened="true"><b>Warning</b>: This site is still in development.</paper-toast>
+  </template>
+  
+  <script type="application/dart" src="home.dart"></script>
+</polymer-element>
