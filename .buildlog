@@ -1,0 +1,640 @@
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.5s (2.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.5s (2.4s awaiting secondary inputs)."}}]
+build.dart finished [6702 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [10940 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [6593 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4450 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.2s awaiting secondary inputs)."}}]
+build.dart finished [5950 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+
+build.dart finished [11002 ms]
+
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 1.5s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.3s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.2s (2.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.4s (3.1s awaiting secondary inputs)."}}]
+build.dart finished [9408 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4688 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [4755 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [3813 ms]
+
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 2.8s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.9s (3.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 4.5s (3.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 4.7s (3.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 4.7s (3.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 6.1s (5.4s awaiting secondary inputs)."}}]
+build.dart finished [17458 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.7s (2.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.0s (2.8s awaiting secondary inputs)."}}]
+build.dart finished [6706 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.6s (2.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.9s (2.7s awaiting secondary inputs)."}}]
+build.dart finished [6780 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.8s (2.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.0s (2.8s awaiting secondary inputs)."}}]
+build.dart finished [8537 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.8s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 2.3s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.5s (2.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.2s (2.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.4s (3.2s awaiting secondary inputs)."}}]
+build.dart finished [8907 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [5728 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [4666 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.9s awaiting secondary inputs)."}}]
+build.dart finished [6558 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [4689 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.3s (2.1s awaiting secondary inputs)."}}]
+build.dart finished [6393 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/lib/developers.html","message":"Invalid event handler body \"onDeveloperButtonClick\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\". See http://goo.gl/5HPeuP#polymer_21 for details.","line":16,"charStart":452,"charEnd":485}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.8s awaiting secondary inputs)."}}]
+build.dart finished [5074 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.4s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.3s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.3s (2.8s awaiting secondary inputs)."}}]
+build.dart finished [7556 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [5563 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.3s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.3s (3.1s awaiting secondary inputs)."}}]
+build.dart finished [8957 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.9s awaiting secondary inputs)."}}]
+build.dart finished [5148 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.9s awaiting secondary inputs)."}}]
+build.dart finished [5343 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.0s (2.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.9s awaiting secondary inputs)."}}]
+build.dart finished [8622 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.6s (2.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.9s (2.8s awaiting secondary inputs)."}}]
+build.dart finished [6243 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4623 ms]
+
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.5s (2.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.7s (2.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.6s (3.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.9s (3.7s awaiting secondary inputs)."}}]
+build.dart finished [10571 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [3965 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.2s (1.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.3s (2.1s awaiting secondary inputs)."}}]
+build.dart finished [5685 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4532 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [3981 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.4s (3.2s awaiting secondary inputs)."}}]
+build.dart finished [6836 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4250 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4723 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4365 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4197 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4560 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [3810 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4107 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4438 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [4456 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4445 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4313 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [4664 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4438 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4801 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4240 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4061 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [3893 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [4431 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [3877 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [4138 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [5120 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4158 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4176 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4169 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4248 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.8s awaiting secondary inputs)."}}]
+build.dart finished [4761 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4023 ms]
+
+---
+build.dart --machine --changed=web/lib/developers.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [5391 ms]
+
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.7s (2.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.7s (2.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (3.0s awaiting secondary inputs)."}}]
+build.dart finished [9033 ms]
+
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 1.4s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.3s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.5s (2.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.4s (3.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.6s (3.3s awaiting secondary inputs)."}}]
+build.dart finished [9133 ms]
+
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 1.8s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.3s (3.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.4s (3.0s awaiting secondary inputs)."}}]
+build.dart finished [9405 ms]
+

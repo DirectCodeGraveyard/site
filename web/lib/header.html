@@ -1,4 +1,5 @@
 <link rel="import" href="../packages/polymer/polymer.html">
+<!-- <link rel="import" href="../packages/core_elements/core_header_panel.html"> -->
 <link rel="import" href="../packages/core_elements/core_icon_button.html">
 <link rel="import" href="../packages/core_elements/core_toolbar.html">
 <link rel="import" href="../packages/paper_elements/paper_icon_button.html">
@@ -43,19 +44,17 @@
       }
     </style>
 
-    <core-header-panel>
-      <core-toolbar class="toolbar">
-        <div id="div" flex>{{branding}}</div>
-        <a href="https://github.com/DirectMyFile">
-          <paper-icon-button iconsrc="images/GitHub.png" class="github-button"></paper-icon-button>
-        </a>
-      </core-toolbar>
-      <paper-tabs selected="0" class="tabs" id="navTabs">
-        <template repeat="{{tab in tabs}}">
-          <paper-tab>{{tab}}</paper-tab>
-        </template>
-      </paper-tabs>
-    </core-header-panel>
+    <core-toolbar class="toolbar">
+      <div id="div" flex>{{branding}}</div>
+      <a href="https://github.com/DirectMyFile">
+        <paper-icon-button iconsrc="images/GitHub.png" class="github-button"></paper-icon-button>
+      </a>
+    </core-toolbar>
+    <paper-tabs selected="0" class="tabs" id="navTabs">
+      <template repeat="{{tab in tabs}}">
+        <paper-tab>{{tab}}</paper-tab>
+      </template>
+    </paper-tabs>
   </template>
   <script type="application/dart" src="header.dart"></script>
 </polymer-element>

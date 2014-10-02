@@ -1,4 +1,6 @@
 <link rel="import" href="../packages/polymer/polymer.html">
+<link rel="import" href="../packages/paper_elements/paper_button.html">
+<link rel="import" href="../packages/paper_elements/paper_dialog.html">
 
 <polymer-element name="dc-developers">
   <template>
@@ -9,6 +11,14 @@
       }
     </style>
     <h1>Developers</h1>
+    
+    <template repeat="{{developer in developers}}">
+      <paper-button onclick="document.querySelector('developer.{{developer.id}}.dialog').toggle()" label="{{developer.name}}" id="developer.{{developer.id}}.btn"></paper-button>
+      
+      <paper-dialog id="developer.{{developer.id}}.dialog" heading="{{developer.name}}">
+        <p>{{developer.biography}}</p>
+      </paper-dialog>
+    </template>
   </template>
   <script type="application/dart" src="developers.dart"></script>
 </polymer-element>
