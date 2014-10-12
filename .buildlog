@@ -638,3 +638,5 @@ build.dart --machine --full
 [{"method":"info","params":{"message":"Took 3.4s (3.0s awaiting secondary inputs)."}}]
 build.dart finished [9405 ms]
 
+---
+build.dart --machine --full
