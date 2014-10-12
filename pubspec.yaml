@@ -1,12 +1,12 @@
-name: directcode
+name: dcsite
 version: 1.0.0
 description: DirectCode Site
 dependencies:
   browser: '>=0.10.0+2 <0.11.0'
   core_elements: '>=0.3.0 <0.4.0'
+  github: '>=2.1.0 <2.2.0'
   paper_elements: '>=0.4.0 <0.5.0'
   polymer: '>=0.15.0 <0.16.0'
-  github: '>=2.1.0 <2.2.0'
 transformers:
 - polymer:
     entry_points: web/index.html
