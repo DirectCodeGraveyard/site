@@ -8,5 +8,4 @@ dependencies:
   paper_elements: '>=0.5.0 <0.6.0'
   polymer: '>=0.15.0 <0.16.0'
 transformers:
-- polymer:
-    entry_points: web/index.html
+- polymer

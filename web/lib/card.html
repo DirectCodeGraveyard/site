@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<link rel="import" href="packages/polymer/polymer.html">
+
+<polymer-element name="fancy-card">
+  <template>
+    <style>
+      #box {
+        border: 1px solid #bebebe;
+        padding: 16px;
+        margin: 16px;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #555;
+      }
+    </style>
+
+    <div id="box">
+      <content></content>
+    </div>
+  </template>
+</polymer-element>
+
+<script type="application/dart" src="card.dart"></script>
